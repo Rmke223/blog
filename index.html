@@ -1,27 +1,61 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>Bootcamp Blog</title>
-    <link href="style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Blog-Welcome</title>
 </head>
 
 <body>
     <header>
-        <h1>Bootcamp Blog</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="aboutme.html">About Me</a></li>
-                <li><a href="blogs.html">Blogs</a></li>
-               
-              </ul>
-        </nav>
+        <div class="container">
+            <div id="title">
+                <h1><span class="highlight">Bootcamp</span> Blog</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="blogs.html">Blog Posts</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-
-    <p>Hello, world!</p>
-
+    <section id="showcase">
+        <div class="container">
+            <h1>Welcome to my Bootcamp Blog</h1>
+            
+        </div>
+    </section>
+        <section id="subscribe">
+            <div class="container">
+                <h1>Subscribe to the blog!</h1>
+                <form>
+                    <input type="email" placeholder="Enter Email...">
+                    <button type="submit" class="button_1">Subscribe</button>
+                </form>
+            </div>
+        </section>
+        
+        <section id="boxes">
+            <div class="container">
+            <div class="box">
+            <img src="./img/logo_html.png">
+            <h3>HTML 5</h3>
+            </div>
+            <div class="box1">
+            <img src="./img/logo_css.png">
+            <h3>CSS 3</h3>
+            </div>
+        </div>
+        </section>
+    <footer>
+        <p>Bootcamp Blog, Copyright &copy; 2020</p>
+    </footer>
+    
+    
 </body>
 
 </html>
